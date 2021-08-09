@@ -1,55 +1,53 @@
 //Function for getting the answers from the index file and generating the README.
 function generateReadme(answers) {
     return `
-    #Title
-    ${answers.Title}
+# ${answers.Title}
     
     
-    
-    ## Description
+## Description
     ${answers.Description}
     
 
     
-    ## Table of Contents
-    * [Installation](#Installation)
-    * [Usage](#Usage)
-    * [License](#License)
-    * [Contributing](#Contributing)
-    * [Tests](#Tests)
-    * [Questions](#Questions)
+## Table of Contents
+1. [Installation](#Installation)
+2. [Usage](#Usage)
+3. [License](#License)
+4. [Contributing](#Contributing)
+5. [Tests](#Tests)
+6. [Questions](#Questions)
     
     
     
-    ## Installation
+## Installation
     ${answers.Installation}
     
 
     
-    ## Usage
+## Usage
     ${answers.Usage}
     
 
     
-    ##License
-    ${answers.License}
+## Licence  
+${answers.Licence}
     
 
     
-    ## Contributing
+## Contributing
     ${answers.Contributing}
     
 
     
-    ## Tests
+## Tests
     ${answers.Tests}
     
 
     
-    ## Questions
-    ${"Git-Hub: ", answers.Questions}
-    ${"Link to my LinkedIn: ", answers.LinkedIn}
-    ${"For any further questions please contact me via email: ", answers.Email}
+## Questions
+Git-Hub: ${answers.Questions}  
+Link to my LinkedIn: ${answers.LinkedIn}  
+For any further questions please contact me via email: ${answers.Email}
     
     `;
 }

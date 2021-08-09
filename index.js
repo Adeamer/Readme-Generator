@@ -45,7 +45,7 @@ const Questions = () => {
         message:"Give instructions for the test",
         type:"input",
     },{
-        name:"questions",
+        name:"Questions",
         message:"Enter you Git-Hub username.",
         type:"input",
     },{
